@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ *= 
+ */
+ 
+.login-section {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.login-section div {
+	clear: both;
+}
+
+.agree-box {
+	padding-bottom: 12px;
+}
+
+.login-footer-status {
+	font-size: 11px;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+span.error {
+	color: red;
+	font-size: 12px;
+	padding-left: 11px;
+}
+
+/* overwrite existing class */
+
+.container-fluid .row-fluid {	
+	margin: 0 auto;
+	width: 800px;
+}
+
+#location-creation input {
+	width: 130px;
+}
+
+#footer {
+	height: 15px;
+	background-color: #F5F5F5;
+	text-align: center;
+	padding: 20px;
+}
